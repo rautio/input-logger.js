@@ -5,7 +5,7 @@
   "main": "lib/input-logger.min.js",
   "scripts": {
     "test": "jest",
-    "coveralls": "coveralls",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "lint": "esw src test",
     "lint:watch": "esw -w src test",
     "clean": "rimraf lib",
