@@ -1,9 +1,9 @@
 [![travis][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
-[travis-image]: https://travis-ci.org/rautio/input-logger.svg?branch=master
-[travis-url]: https://travis-ci.org/rautio/input-logger
-[coveralls-image]:https://coveralls.io/repos/github/rautio/input-logger/badge.svg?branch=master
-[coveralls-url]:https://coveralls.io/github/rautio/input-logger?branch=master
+[travis-image]: https://travis-ci.org/rautio/input-logger.js.svg?branch=master
+[travis-url]: https://travis-ci.org/rautio/input-logger.js
+[coveralls-image]:https://coveralls.io/repos/github/rautio/input-logger.js/badge.svg?branch=master
+[coveralls-url]:https://coveralls.io/github/rautio/input-logger.js?branch=master
 
 # input-logger
 Generate logs of user input events such keyboard and mouse events.
