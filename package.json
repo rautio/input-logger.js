@@ -1,0 +1,54 @@
+{
+  "name": "input-logger",
+  "version": "0.1.0",
+  "description": "Generate logs of user input event such as keyboard and mouse events.",
+  "main": "lib/input-logger.min.js",
+  "scripts": {
+    "test": "jest",
+    "coveralls": "coveralls",
+    "lint": "esw src test",
+    "lint:watch": "esw -w src test",
+    "clean": "rimraf lib",
+    "build": "webpack -p --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "doc": "jsdoc src -r -d doc/ --private --readme README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rautio/input-logger.js.git"
+  },
+  "keywords": [
+    "logs",
+    "logger",
+    "logging",
+    "keyboard",
+    "mouse",
+    "input"
+  ],
+  "author": "Oskari Rautiainen <oskari@oskari.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rautio/input-logger.js/issues"
+  },
+  "homepage": "https://github.com/rautio/input-logger.js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babili-webpack-plugin": "^0.1.2",
+    "coveralls": "^3.0.1",
+    "eslint": "^4.9.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-watch": "^3.1.3",
+    "jest": "^22.4.4",
+    "jsdoc": "^3.5.5",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1",
+    "yargs": "^9.0.1"
+  }
+}
