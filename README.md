@@ -1,2 +1,2 @@
-# keylogger.js
-Generate logs of keystrokes.
+# input-logger.js
+Generate logs of user input such keyboard and mouse events.
